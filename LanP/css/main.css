@@ -1,0 +1,560 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * These selection rule sets have to be separate.
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body{font-family:arial;font-size:14px; line-height:18px;background:#ECE9D8;}
+.template{width:960px;margin:0 auto;}
+.clear{overflow:hidden;}
+.headsection{
+	height:110px; background:#404040;
+}
+.title {
+  float: left;
+  margin-left: 50px;
+  margin-top: 8px;
+  width: 427px;
+}
+.title h2 {
+  color: #e46e33;
+  font-size: 40px;
+  font-family: fantasy;
+}
+.extra{color:#fff}
+.mainmenu {
+  color: #e46e33;
+  float: right;
+  margin-right: 39px;
+  margin-top: 50px;
+  width: 435px;
+}
+.mainmenu a {
+  color: #bababa;
+  font-family: lucida grande;
+  font-size: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-decoration: none;
+}
+.mainmenu a:hover{
+	color:#e46e33;
+	transition: all .1s ease-in 0s;
+  -webkit-transition: all 0.1s ease-in 0s;
+  -moz-transition: all 0.1s ease-in 0s;
+  -o-transition: all 0.1s ease-in 0s;
+}
+#active{
+	color:#e46e33
+}
+
+.mainsection{
+	background:#fff
+}
+.maintop {
+  border-bottom: 2px dotted #999;
+  margin: 10px 50px 5px;
+}
+.maintop h2 {
+  color: #333;
+  font-family: "Segoe UI";
+  font-size: 37px;
+}
+.maintop h3 {
+  color: #bbbbbb;
+  font-family: trebuchet ms;
+  font-size: 28px;
+  font-weight: lighter;
+  line-height: 8px;
+  margin-bottom: 35px;
+}
+.content{
+	margin: 0 50px;
+}
+.description {
+  
+  text-align: center;
+}
+.description p {
+  color: #444444;
+  font-family: Tahoma;
+  font-size: 23px;
+  line-height: 25px;
+}
+
+.midcontent{
+	height:260px;
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ed5c1a+0,ef8051+100 */
+background: #ed5c1a; /* Old browsers */
+background: -moz-linear-gradient(left,  #ed5c1a 0%, #ef8051 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #ed5c1a 0%,#ef8051 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #ed5c1a 0%,#ef8051 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ed5c1a', endColorstr='#ef8051',GradientType=1 ); /* IE6-9 */
+
+
+}
+.midleft {
+  float: left;
+  margin-right: 55px;
+  padding: 30px 40px;
+  text-align: center;
+  width: 330px;
+  color:#fff;
+}
+.midleft h2 {
+  border-bottom: 2px dotted #fff;
+  font-size: 25px;
+  margin-left: 60px;
+  padding-bottom: 25px;
+  width: 216px;
+}
+.midleft p {
+  font-family: "Lucida Grande";
+  font-size: 16px;
+  line-height: 18px;
+}
+.midimage {
+  float: left;
+  width: 350px;
+}
+.midimage img {
+  width: 350px;
+}
+.post {
+  border-bottom: 2px dotted #999;
+  border-top: 2px dotted #999;
+  margin: 10px 50px 15px;
+  padding-bottom: 35px;
+  padding-top: 35px;
+}
+.allpost{
+	margin-left:-70px;
+}
+.sameartical {
+  float: left;
+  margin-left: 70px;
+  padding: 5px 15px;
+  text-align: center;
+  width: 210px;
+  color:#fff;
+	background: #ef8051; /* Old browsers */
+	background: -moz-linear-gradient(top,  #ef8051 0%, #d15b1e 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #ef8051 0%,#d15b1e 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #ef8051 0%,#d15b1e 100%); /* W3C, IE10+, FF16+, Chrome26+, 	Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef8051', endColorstr='#d15b1e',GradientType=0 ); /* IE6-9 */
+
+}
+.sameartical h2 {
+  border-bottom: 2px dotted #fff;
+  font-size: 25px;
+  padding-bottom: 20px;
+  text-shadow: 0 1px 1px #333;
+}
+.sameartical p {
+  font-family: lucida grande;
+  font-size: 16px;
+}
+.postlink {
+  background: rgba(0, 0, 0, 0) url("../img/bg.png") repeat-x scroll 0 0;
+  height: 30px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-top: 25px;
+  padding-top: 7px;
+  width: 180px;
+}
+.postlink a {
+  color: #d25d20;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+.postlink a:hover{}
+.footersection {
+	background:#fff;
+}
+.footportion {
+  margin: 0 50px 15px;
+  text-align: center;
+  color: #777;
+}
+.footportion p {
+  margin: 0px;
+}
+.footportion a {
+  color: #777;
+}
+.footportion a:hover{
+	text-decoration:none;
+	color:#D35D21
+}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+.{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+/*Responsive design*/
+
+@media screen and (max-width:768px) {
+.template{width:760px;}
+.title {width: 236px;}
+.mainmenu a {padding-left: 5px;padding-right: 5px;}
+.mainmenu {width: 361px;}
+.midleft {margin-right: 15px;width: 240px;}
+.midleft h2 { margin-left: 13px;padding-bottom: 20px;margin-bottom: 10px;margin-top: 0;}
+.midleft p {line-height: 20px;}
+.midimage {width: 300px;padding-top: 20px;}
+.midimage img {width: 300px;}
+.sameartical {margin-left: 30px; width: 170px;}
+.allpost {margin-left: -30px;}
+.postlink {margin-left: 0;width: 170px;margin-bottom: 8px;margin-top: 15px;}
+.sameartical h2 {padding-bottom: 15px; margin-bottom: 0;}
+.sameartical p {font-size: 15px;}
+
+}
+
+@media screen and (max-width:480px) {
+.template{width:470px;}
+.title {width: 470px;margin-left: 0;text-align: center;}
+.title h2 {margin: 20px 0;}
+.mainmenu { margin-top: 10px;margin-right: 55px;}
+.maintop h2 {font-size: 25px;}
+.maintop h3 {font-size: 20px;margin-bottom: 25px;}
+.description p {font-size: 16px;margin-top: 10px;}
+.midcontent {height: 100%;}
+.midleft {margin-left: 25px;padding-bottom: 0;}
+.midimage {margin-left: 50px;padding-top: 0;width: 310px;}
+.midimage img {width: 260px;}
+.sameartical {margin-bottom: 20px;width: 340px;}
+.postlink {margin-left: 84px;}
+.post {margin-top: 35px}
+}
+
+
+
+@media screen and (max-width:360px) {
+.template{width:350px;}	
+.title {margin-left: 0;text-align: center;width: 100%;}
+.mainmenu {font-size: 12px;margin-right: 0;width: 100%;text-align: center;}
+.mainmenu a {font-size: 13px;}
+.maintop { margin: 10px 20px 20px;}
+.maintop h2 {font-size: 20px; text-align: center;}
+.maintop h3 { font-size: 15px; text-align: center;}
+.description p {font-size: 16px; line-height: 20px; margin-top: 0;}
+.content {margin: 0 15px;}
+.midleft { margin-left: 0;}
+.midimage {margin-left: 45px; width: 230px;}
+.midimage img { width: 230px;}
+.post {margin: 20px 15px 15px;padding-top: 20px;}
+.sameartical {width: 290px;}
+.postlink { margin-left: 70px;width: 150px;}
+.postlink a {font-size: 14px;}
+.footportion { margin: 0 49px 15px;}
+
+
+}
+
+
+
+@media screen and (max-width:320px) {
+	.template{width:310px;}	
+	.maintop { margin: 10px 13px 20px;}
+	.description p {font-size: 13px;}
+	.midleft {padding: 30px 20px 0px; }
+	.midimage {margin-left: 40px;width: 200px;}
+	.midimage img {width: 200px;}
+	.sameartical {width: 250px;}
+	.postlink {margin-left: 60px;width: 130px;}
+	.postlink a {font-size: 13px;}
+	.sameartical p {font-size: 14px;}
+	.footportion { margin: 0 10px 15px; font-size: 12px;}
+
+	
+}
