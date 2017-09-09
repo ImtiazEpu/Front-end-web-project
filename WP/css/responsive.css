@@ -1,0 +1,37 @@
+@media screen and (max-width:768px) {
+.service{margin-bottom: 50px;}
+}
+@media screen and (max-width:480px) {
+.address {max-width: 480px;}
+.banner h1 {font-size: 50px;}
+.banner p {font-size: 25px;}
+}
+
+@media screen and (max-width:360px) {
+.banner h1 {font-size: 30px;}
+.banner p {font-size: 15px; line-height: 22px;}
+.work h1 {font-size: 30px;}
+.work p {font-size: 15px;}
+.button {font-size: 7px;padding: 10px 16px;}
+.contact p {font-size: 18px;}
+.location {font-size: 12px !important;}
+.phone {font-size: 12px !important;}	
+.address {margin-left: 25px;}
+	
+}
+
+
+@media screen and (max-width:320px) {
+.banner h1 {font-size: 30px;}
+.banner p {font-size: 15px; line-height: 22px;}
+.service {max-width: 128px;}
+.work h1 {font-size: 20px;}
+.work p {font-size: 15px;}
+.button {font-size: 7px;padding: 10px 16px;}
+.contact p {font-size: 15px;}
+.location {font-size: 10px !important;}
+.phone {font-size: 10px !important;}	
+.address {margin-left: 25px;}
+	
+	
+}
