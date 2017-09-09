@@ -1,0 +1,223 @@
+*{margin:0; padding:0; outline:0}
+body{font-family:Tahoma; font-size:14px; line-height:18px; color:#333; background:#000;}
+.templete{width:960px; margin:0 auto}
+.clear{overflow:hidden;}
+.headersection{
+	
+}
+.header{
+	background:#333333;
+	height:80px
+}
+.headerleft {
+  color: #fff;
+  float: left;
+  width: 457px;
+}
+.headerleft h1 {
+  font-family: "Trebuchet MS";
+  font-size: 45px;
+  line-height: 65px;
+  padding-left: 50px;
+  padding-top: 5px;
+}
+
+.headerright {
+  color: #fff;
+  float: right;
+  padding-right: 50px;
+  padding-top: 30px;
+  width: 453px;
+}
+.headerright a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.headerright a:hover,#active{color:#00AEEF}
+
+.mainsection{
+	background:#fff;
+}
+.slogansection {
+  border-bottom: 2px dotted #c4c4c4;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+.slogansection h2 {
+  color: #000;
+  font-size: 45px;
+  line-height: 58px;
+ 
+}
+.slogansection h3 {
+  color: #c4c4c4;
+  font-size: 38px;
+  font-weight: normal;
+  line-height: 42px;
+}
+
+.description {
+  border-bottom: 2px dotted #c4c4c4;
+  color: #666;
+  font-size: 26px;
+  line-height: 32px;
+  margin: 28px 50px 50px;
+  padding-bottom: 30px;
+}
+.description p {
+ 
+}
+
+.contentsection {
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+.service {
+  background: #00adef none repeat scroll 0 0;
+  box-shadow: 6px 6px 0 0 #f4f4f7;
+  float: left;
+  margin-left: 50px;
+  padding: 20px;
+  width: 213px;
+}
+.service h2 {
+  border-bottom: 1px dotted #fff;
+  color: #fff;
+  font-size: 28px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+.service p {
+  color: #D0FFFF;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+}
+
+.readmore {
+  background: #0076a4 none repeat scroll 0 0;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+.readmore a {
+  color: #5CD2FF;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.readmore a:hover{}
+
+.mainbottom {
+  border-bottom: 2px dotted #c4c4c7;
+  border-top: 2px dotted #c4c4c7;
+  margin: 30px 50px 20px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.clientsection {
+  border-right: 2px dotted #ccc;
+  float: left;
+  margin-right: 30px;
+  padding-right: 25px;
+  width: 398px;
+}
+.clientsection h2 {
+  color: #666;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.Testimonoals {
+  margin-top: 20px;
+}
+.clientimage {
+  float: left;
+  margin-right: 20px;
+  width: 70px;
+}
+
+.clientimage img {
+  border: 1px solid #ddd;
+  border-radius: 40px;
+  height: 70px;
+  width: 69px;
+}
+	
+
+.clientdesc {
+  float: left;
+  width: 308px;
+}
+.clientdesc p {
+  color: #888889;
+  font-family: fantasy;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.clientname {
+  font-weight: bold;
+  line-height: 12px !important;
+  margin-top: 8px;
+}
+.clientdesc a {
+  color: #27D4FF;
+  font-size: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.projrctsection{
+	width:400px;float:right;
+}
+.projrctsection h2{
+	color: #666;
+	font-size: 25px;
+	line-height: 30px;
+	font-weight: normal;
+}
+.projrctsection h3 {
+  color: #999;
+  font-weight: normal;
+  margin-bottom: 8px;
+  margin-top: 5px;
+}
+.projrctsection img {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  height: 170px;
+  margin-bottom: 8px;
+  width: 398px;
+}
+.projrctsection p {
+  color: #666;
+  font-family: fantasy;
+  font-size: 14px;
+}
+.projrctsection a {
+  color: #63e0ff;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footersection{
+	background:#fff;
+}
+.footersection p {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  color: #999;
+}
+.footersection a {
+  font-weight: bold;
+  text-decoration: none;
+}
